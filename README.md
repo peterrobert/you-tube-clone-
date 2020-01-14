@@ -1,0 +1,3 @@
+This is a youtube clone project for the microverse HTML CSS program
+
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
