@@ -1,5 +1,6 @@
 body{
     background: #eee;
+    overflow-x: hidden;
 }
 
 .app-header{
@@ -86,7 +87,7 @@ body{
 
 .signIn-upload button{
 
-    background-color: blue;
+    background-color: #167ac6;
     color: #fff;
     padding: 4px;
     font-size: 15px;
@@ -114,4 +115,81 @@ body{
    color: black;
     padding-bottom: 4px;
     margin-top: -3px;
+}
+
+/* This is the choose language section */
+
+.choose-lan{
+    
+    background-color: #167ac6;
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+.lang{
+    float: left;
+}
+
+.lang> i  {
+
+    padding: 10px;
+
+}
+
+.lang > span  a {
+
+   color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+#close{
+    float: right;
+    padding: 10px;
+}
+
+.chosen-lang{
+
+    background-color: #fff;
+    width: 100%;
+    height: 35px;
+    color: #000;
+    position: relative;
+    top: -16px;
+    border-bottom: 1px solid #bbb;
+
+}
+
+.chosen-lang-details{
+
+    position: relative;
+    top: 8px; 
+
+}
+
+/* This part we show the video and the thumbnails */
+
+.main-body-section{
+
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.show-the-video{
+
+    width: 50%;
+    float: left;
+}
+
+.coming-next-thumb{
+    width: 50%;
+    float: right;
 }
