@@ -3,6 +3,115 @@ body{
 }
 
 .app-header{
-    padding-left: 5%;
-    padding-right: 5%;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    height: 50px;
+    margin-top: -8px;
+    border-bottom: 1px solid #bbb;
+}
+
+.app-nav{
+
+    padding: 10px;
+
+}
+
+.app-nav i{
+
+    float: left;
+    color: #bbb;
+    font-size: 25px;
+
+
+}
+
+.app-nav .logo{
+   
+    margin-left: 70px;
+}
+
+
+.app-nav .logo span{
+
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000;
+    padding: 13px;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    word-spacing: -4px;
+    position: relative;
+    top: -3px;
+
+}
+
+
+.app-nav .logo i{
+
+    font-size: 32px;
+    color: red;
+    margin-top: -3px;
+}
+
+.searchbar{
+
+    position: relative;
+    margin-left: 30%;
+    top: -36px;
+
+}
+
+..searchbar input{
+    width: 560px;;
+}
+   
+.signIn-upload{
+
+    float:right;
+    margin-top: -30px;
+
+}
+
+.signIn-upload i{
+
+    padding-right: 40px;
+    color: black;
+
+}
+
+.signIn-upload button{
+
+    background-color: blue;
+    color: #fff;
+    padding: 4px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: none;
+    letter-spacing: 2px;
+
+}
+
+.searchbar input{
+   
+    width: 560px;
+    padding: 4px;
+    position: relative;
+    top: -3px;
+
+}
+
+.searchbar button{
+   
+    position: absolute;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 4px;
+   color: black;
+    padding-bottom: 4px;
+    margin-top: -3px;
 }
