@@ -1,8 +1,6 @@
 .app-nav{
     display: flex;
-    padding-top: 10px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-top: 5px;
 }
 
 .app-nav i{
@@ -12,14 +10,13 @@
 }
 
 .app-nav .logo{
-   
-   width: 33.33% ;
+   flex: 2;
 }
 
 .app-nav .logo .fa-bars {
 
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 50px;
+    padding-left: 20px;
     color: black;
 
 }
@@ -50,55 +47,122 @@
 
 .searchbar{
 
-  width:  33.33%;
- flex-wrap: nowrap;
-  align-items: flex-start;
-
+    flex: 4;
+    
+ 
 }
-
 
 .nav-icons{
 
-    position: absolute;
-    right: 3%;
-    top: 8px;
-    margin-top: 5px;
+    flex: 1;
+   
 }
 
 ul{
+
     list-style: none;
+
 }
 
 .nav-icons ul{
-
+    margin-block-start: 0em;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-
+    margin-top: 5px;
 }
 
 .nav-icons ul li{
 
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     color: black;
 }
 
  .searchbar input {
 
-      width: 90%;
+      width: 80%;
       position: relative;
-    padding: 5px;
-    margin-top: 5px;
+      padding: 5px;
+   
 }
 
 .searchbar button{
     position: absolute;
-    margin-top: 4px;
-    height: 30px;
+    height: 29px;
     width: 4%;
 }
 
 
 
-/* This is the choose language section */
+/* BODY SECTION */
+
+.you-tube-clone-body {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.video-section{
+
+    flex: 2;
+   
+}
+
+.upnext-thumbnails{
+
+    flex: 1;
+
+}
+.upnext-thumbnails img{
+
+    width: 150px;
+
+}
+
+.upnext-thumbnails ul{
+
+    padding-top: 20px;
+
+}
+
+.upnext-thumbnails li{
+
+    min-height: 115px;
+}
+
+.upnext-thumbnails span{
+    text-align: left;
+    margin-left: 35px;
+    font-size: 1.2em;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.upnext-thumbnails h2{
+
+    text-align: right;
+    margin-top: -30px;
+    font-size: 1.2em;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.upnext-thumbnails li span{
+
+    font-family: 'Rubik', sans-serif;
+    margin: -106px 0px 0px 160px;
+    display: -webkit-box;
+    max-height: 3.2rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    font-size: 1.1rem;
+    font-weight: 800;
+    line-height: 1.6rem;
+    text-transform: capitalize;
+}
