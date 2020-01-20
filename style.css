@@ -18,6 +18,8 @@
     padding-right: 50px;
     padding-left: 20px;
     color: black;
+    position: relative;
+    top: -6px;
 
 }
 
@@ -71,7 +73,7 @@ ul{
 }
 
 .nav-icons ul{
-    margin-block-start: 0em;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -106,9 +108,9 @@ ul{
 
 .you-tube-clone-body {
     display: flex;
-    padding-left: 40px;
     padding-top: 30px;
     height: 100vh;
+    padding-left: 50px;
 }
 
 .video-section{
@@ -175,11 +177,23 @@ ul{
     text-transform: capitalize;
 }
 
-.upnext-thumbnails li p{
+.upnext-thumbnails p{
 
     font-size: 14px;
     color: #848484ee;
     font-weight: 400;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.upnext-thumbnails li .views{
+
+    margin-top: 0px;
+    font-weight: 400;
+    color: #a59f9f;
+    font-size: 12px;
+    margin-left: -6px;
+
 }
 
 
@@ -296,7 +310,22 @@ ul{
 
 
 /* === MEDIA QUERIES === */
+
+@media screen and (min-width: 1400px){
+
+    body{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+}
 @media screen and (max-width: 1125px) {
+    body {
+         
+        overflow-x: hidden;
+    
+    }
    .you-tube-clone-body{
              
     flex-direction: column;
@@ -313,6 +342,17 @@ ul{
 
     margin-top: 25px;
 
+   }
+   .upnext-thumbnails p{
+    text-align: left;
+    position: relative;
+    left: 104px;
+   }
+
+   .upnext-thumbnails .views{
+
+
+    left: 172px;
    }
 
    .upnext-thumbnails ul{
