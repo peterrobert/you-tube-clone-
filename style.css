@@ -45,6 +45,7 @@
   
 }
 
+
 .searchbar{
 
     flex: 4;
@@ -74,23 +75,24 @@ ul{
 
 .nav-icons ul li{
 
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: black;
 }
 
  .searchbar input {
 
-      width: 80%;
+     width: 80%;
       position: relative;
       padding: 5px;
    
 }
 
 .searchbar button{
+    
     position: absolute;
     height: 29px;
-    width: 4%;
+    width: 50px;
 }
 
 
@@ -244,3 +246,6 @@ ul{
     padding-left: 0;
    }
   }
+
+
+  
