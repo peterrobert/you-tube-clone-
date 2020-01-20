@@ -1,3 +1,21 @@
-This is a youtube clone project for the microverse HTML CSS program
+# You tube Clone microverse project.
 
-From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+---
+
+## About project.
+
+This is the first project on Html Css in the microverse Curriculum.
+
+## Built With.
+
+This is a simple project built only in html and plain css without any third party libraries such as bootstrap.
+
+## Licence.
+
+Distributed under the MIT License.
+
+## Contributors.
+ 
+- Peter robert Ndungu <https://github.com/peterrobert>
+
+- sunday         <https://github.com/ezeilo-su>
