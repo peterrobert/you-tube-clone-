@@ -48,7 +48,7 @@
 .app-nav .logo img{
 
     height: 35px;
-    
+
 }
 
 .searchbar{
@@ -222,10 +222,78 @@ ul{
     padding-right: 20px;
 }
 
-.video-section{
-    max-height: 620px;
-    border-bottom: solid 1px #eee;
+.avatar{
+
+    border-top: 1px solid #decfcf;
+    margin-top: 80px;
+    
 }
+
+.ratings-icons button{
+    color: #9c9797;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+}
+
+
+.avatar img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+   
+}
+
+.avatar .pull-left{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.avatar .pull-right{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.avatar .pull-left span{
+
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    padding: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.avatar .pull-left p{
+
+    text-align: center;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-size: 12px;
+    text-transform: capitalize;
+
+}
+.avatar button{
+
+    margin-top: 10px;
+    background: #bd2222;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+
 
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 1125px) {
