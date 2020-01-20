@@ -101,6 +101,7 @@ ul{
     display: flex;
     padding-left: 40px;
     padding-top: 30px;
+    height: 100vh;
 }
 
 .video-section{
@@ -224,3 +225,28 @@ ul{
     max-height: 620px;
     border-bottom: solid 1px #eee;
 }
+
+/* === MEDIA QUERIES === */
+@media screen and (max-width: 1125px) {
+   .you-tube-clone-body{
+             
+    flex-direction: column;
+
+   }
+
+   .item{
+
+    width: 100%;
+      
+   }
+
+   .upnext-thumbnails {
+
+    margin-top: 25px;
+
+   }
+
+   .upnext-thumbnails ul{
+    padding-left: 0;
+   }
+  }
