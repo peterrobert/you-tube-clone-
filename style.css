@@ -155,7 +155,7 @@ ul{
     font-family: 'Rubik', sans-serif;
     margin: -106px 0px 0px 160px;
     display: -webkit-box;
-    max-height: 3.2rem;
+
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -166,6 +166,15 @@ ul{
     line-height: 1.6rem;
     text-transform: capitalize;
 }
+
+.upnext-thumbnails li p{
+
+    font-size: 14px;
+    color: #848484ee;
+    font-weight: 400;
+}
+
+
 
 .video-section h3{
 
@@ -209,4 +218,9 @@ ul{
     top: -14px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.video-section{
+    max-height: 620px;
+    border-bottom: solid 1px #eee;
 }
